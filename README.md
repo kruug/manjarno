@@ -62,6 +62,7 @@ Manjaro let their SSL certificates expire not once but twice [5]!
 The first time, they asked the users to use a private window and/or change
 the system time [6].
 The second time when the SSL certificates expired, they did the same [7].
+It happened again, now at three times and counting. [16]
 
 # DDoS'ing the AUR
 
@@ -110,3 +111,5 @@ Further discussions and sources:
 [14] https://www.reddit.com/comments/q85t8n/
 
 [15] https://gitlab.manjaro.org/applications/pamac/-/issues/1135
+
+[16] https://forum.manjaro.org/t/expired-certificate-for-iso-download-on-download-manjaro-org/96441
