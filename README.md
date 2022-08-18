@@ -2,7 +2,7 @@
 A lot of Manjaro users I have talked to say that Manjaro is just Arch
 with an installer. However, this is fundamentally wrong!
 
-Manjaro maintains a separate repository which is not in sync with Arch's
+Manjaro maintains a separate repository [1] which is not in sync with Arch's
 main repositories which means Manjaro is not *just* Arch. To add to that,
 even Manjaro wiki states that it is not Arch [1]! To quote the wiki,
 
@@ -11,7 +11,7 @@ even Manjaro wiki states that it is not Arch [1]! To quote the wiki,
 > derivatives, including Mint and Zorin.
 
 # Own repository
-Manjaro claims to be stable just by delaying packages for a week. This
+Manjaro claims to be stable just by delaying packages for two week [1]. This
 is not an approach a stable distribution would take at all!
 
 ## The problems introduced
@@ -46,14 +46,14 @@ a general Linux system and Arch Linux system specifically. Each time
 the system updates, they reinstall some packages to "fix" issues and
 they use the `--no-confirm` flag (force) everytime they do so and
 various other odd sequence of commands which are just as bad, if not
-more.
+more [3].
 
 In an update, password less updates in pamac (Manjaro's AUR helper)
 were sneaked in and from the look in the issue [4] made concerning this,
 the change was made to look like a "feature". This is a major security
 issue considering that packages in AUR are not checked by Arch Linux
 maintainers (and Manjaro does not maintain its own either). Some AUR
-packages were found to be malware in the past. So think about a casual
+packages were found to be malware in the past [19]. So think about a casual
 user (Manjaro's target demographic are not really power users) installing
 a harmless-looking AUR package that could potentially mess their system!
 
@@ -119,3 +119,5 @@ Further discussions and sources:
 [17] https://forum.manjaro.org/t/mirrors-download-aur-manjaro-org-ssl-certificate-expired/115074
 
 [18] https://www.reddit.com/r/linux/comments/wr2dps/manjaro_let_their_ssl_cert_expire_again/
+
+[19] https://www.bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository/
