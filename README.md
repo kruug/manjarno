@@ -64,6 +64,7 @@ the system time [6].
 The second time when the SSL certificates expired, they did the same [7].
 It happened again, now at three times and counting. [16]
 Fourth time is the charm! [2022-06-26, source to follow]
+Fifth time the certificate has been allowed to expire. [2022-08-17, link to follow]
 
 # DDoS'ing the AUR
 
