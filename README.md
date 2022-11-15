@@ -65,6 +65,7 @@ The second time when the SSL certificates expired, they did the same [7].
 It happened again, now at three times and counting. [16]
 Fourth time is the charm! [17]
 Fifth time the certificate has been allowed to expire. [18]
+On 2022-11-05 the SSL certificate expired and instead of resolving the issue, they decided to delete the archives. [20]
 
 # DDoS'ing the AUR
 
@@ -121,3 +122,5 @@ Further discussions and sources:
 [18] https://www.reddit.com/r/linux/comments/wr2dps/manjaro_let_their_ssl_cert_expire_again/
 
 [19] https://www.bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository/
+
+[20] https://forum.manjaro.org/t/am-i-the-only-one-getting-expired-certificate-warning-on-archived-forum-manjaro-org/126049/8
